@@ -1,0 +1,113 @@
+第01讲 JavaEE概述
+【】JavaEE概念
+JavaEE：Java Enterprice Edition
+ 企业版
+开发企业级应用的软件平台。
+运行在服务器端的应用。
+如12306, Taobao等。
+【】JavaEE适合场合
+大中型企业应用，Web应用。
+
+【】服务器端平台类型
+1.JavaEE的Java平台。
+2.ASP.NET平台
+3.PHP平台
+4.Node.js平台
+【】Java工程师基本具备的知识与技能
+1.后台语言:Java
+2.前台：HTML5,CSS,JavaScript
+3.数据库产品：Oracle，MySQL，SQL Server
+4.数据库语言：SQL， PL/SQL, T-SQL
+5.移动平台：Android，iOS
+6.后台框架：Spring，Spring MVC,
+                      Hibernate, MyBatis.
+7.通讯协议：HTTP，HTTPS，REST API
+8.前段框架: Angular, React, Vue.js, jQuery
+                   
+【】JavaEE组成
+1.容器规范
+运行JavaEE组件的平台。
+2.组件规范
+符合JavaEE标准的程序。
+运行在容器内。
+3.服务规范
+JavaEE提供的API（接口和类）
+连接外部资源，如JDBC API，JNDI API。
+4.协议规范
+组件间通讯的标准。
+如HTTP, HTTPS.
+5.开发者规范
+容器提供者：Oracle， IBM，JBoss，
+                      Apache。
+工具提供者：Oracle，IBM，Eclipse，
+组件提供者：软件工程师
+组件组装者：软件工程师
+组件部署者：网管，运维人员。
+系统维护者：网管，运维人员。
+【】容器组成
+1.Web容器：运行Web组件的平台。
+                      TOmcat，WebLogic
+2.EJB容器：运行EJB的平台。
+   WebLogic，GlassFish，WebSphere
+   JBOss等
+3. Application容器：JVM。
+4. Applet容器：运行Applet平台。
+    安装JDK的浏览器。
+
+【】组件组成
+1.Web组件：运行在Web容器内，
+                能够使用WEB协议访问的组件。
+Servlet，JSP，Filter，Listener，JSF。
+2.EJB组件：Session EJB, JMS EJB.
+3.Application组件：普通Java类。
+4.Applet组件：Applet类。
+【】服务组成
+1.JDBC API
+2.JDNI API 
+3.JavaMail API
+4.JTA
+5.JTA
+6.JPA
+【】协议组成
+1.HTTP：访问Web组件的协议。
+2.HTTPS：访问Web组件的协议。
+3.RMI：远程调用。
+4.IIOP：访问EJB
+5.RMI-IIOP：访问EJB
+【】符合javaEE的容器Server
+1. Oracle WebLogic Server。
+2. IBM WebSphere Server
+3. Jboss Server
+4. Oracle GlassFish
+5. SAP Server
+
+
+【】JavaEE应用开发环境安装配置
+1.安装JDK（推荐JDK8）
+c:\apps\jdk8
+c:\apps\jre8
+
+2.安装Tomcat
+解压即可。
+c:\apps\tomcat8
+3.安装开发工具：Eclipse for JEE(4.8)
+c:\apps\eclipse
+
+【】Eclipse配置
+1.配置工作区文件字符编码集：UTF-8
+2.配置Tomcat服务器
+3.创建Dynamic Web Project
+4.创建JSP
+
+
+【】选择题：
+如下那个服务器不符合JavaEE？
+1. Oracle WebLogic Server。
+2. IBM WebSphere Server
+3. Jboss Server
+4. Oracle GlassFish
+5. Tomcat
+答：5
+
+课程资料下载地址：ftp://210.30.108.30
+账号:city  密码:city
